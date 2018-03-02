@@ -22,15 +22,15 @@ If you'd like to make improvements (readability or otherwise), pull requests are
 
 # Socket Connection 
 `wss://api.hivemc.com:8443/socket.io/1/websocket/{SocketUUID from previous request}`
-All frame start with an type code. (like `5::{"name":"example"}` or `0::`)
+All frame start with an type code. (like `5:::{"name":"example"}` or `0:::`)
 
 Type Number | Friendly name
 --- | ---
-0:: | Disconnecting (server to client only)
-1:: | Hello there! (Connected, server to client only)
-2:: | Ping! (You should send the message back to prove the server you're alive or else the connection will be closed.) (Can be sent to and from server)
+0::: | Disconnecting (server to client only)
+1::: | Hello there! (Connected, server to client only)
+2::: | Ping! (You should send the message back to prove the server you're alive or else the connection will be closed.) (Can be sent to and from server)
 --- | ---
-5:: | JSON Message (Can be sent to and from server)
+5::: | JSON Message (Can be sent to and from server)
 ## Sending Frames:
 ### `{"name":"joinserver","args":[{"server":"{ServerName}"}]}`
 
