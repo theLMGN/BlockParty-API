@@ -1,0 +1,30 @@
+{
+  "name": "blockparty-api",
+  "version": "1.0.0",
+  "description": "API Client for The Hive's block party",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theLMGN/BlockParty-API.git"
+  },
+  "keywords": [
+    "minecraft",
+    "api",
+    "websockets",
+    "hive",
+    "blockparty"
+  ],
+  "author": "theLMGN",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/theLMGN/BlockParty-API/issues"
+  },
+  "homepage": "https://github.com/theLMGN/BlockParty-API#readme",
+  "dependencies": {
+    "request": "^2.83.0",
+    "ws": "^4.1.0"
+  }
+}
