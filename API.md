@@ -69,7 +69,7 @@ Note for Soundcloud song id: Songs are uploaded to the Soundcloud account "hidde
 
 *Tells the client to choose a color.*
 
-Color ID | Hex Code
+Color ID [(these are the minecraft colour block id)](https://minecraft.gamepedia.com/Wool#Data_values)| Hex Code
 --- | --- 
 0 | #ffffff
 1 | #f3bb12
